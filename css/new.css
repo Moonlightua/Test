@@ -1,0 +1,50 @@
+.top-menu{
+	height:104px;
+	background-color:whitesmoke;
+}
+.logo-text{
+	padding-top:15px;
+	padding-left:20px;
+	text-align:left;
+	font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	word-spacing:15px;
+	font-size:4em;
+}
+.head-text{
+	padding-left:10px;
+	font: small-caps bold 32px/1 sans-serif;
+	font-weight:700;
+	text-align:center;
+	background-color:#e3e0e0;
+	word-spacing:50px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+a:hover{
+	text-decoration:underline;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+#menu .current-menu-item a {
+	text-decoration:overline;
+}
+footer{
+	text-align:center;
+}
+.text-inside{
+	float:left;
+}
+.pct-text{
+	font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	word-spacing:15px;
+	font-size:4em;
+	text-align:center;
+}
+.rel{
+	position:relative;
+}
