@@ -16,14 +16,12 @@
 	font: small-caps bold 32px/1 sans-serif;
 	font-weight:700;
 	text-align:center;
-	background-color:#e3e0e0;
+	background-color:#fbfbfb;
 	word-spacing:50px;
-	padding-bottom:10px;
-	padding-top:10px;
+	padding-bottom:41px;
+	padding-top:46px;
 }
-a:hover{
-	text-decoration:overline;
-}
+
 
 a {
 	text-decoration:none;
@@ -44,7 +42,7 @@ footer{
 	word-spacing:15px;
 	font-size:4em;
 	text-align:center;
-	background-color: #dad4d4;
+	background-color: #fbfbfb;
 	height:85px;
 	padding-top:30px;
 }
@@ -52,13 +50,13 @@ footer{
 	position:relative;
 }
 .backcolor{
-	background-color: #dad4d4;
+	background-color: #fbfbfb;
 	width:100%;
 }
 .pct-text2{
 	font-size:1.7em;
 	text-align:center;
-	background-color: #dad4d4;
+	background-color: #fbfbfb;
 	padding-bottom:50px;
 }
 .pct-text3{
@@ -67,7 +65,7 @@ footer{
 	word-spacing:15px;
 	font-size:4em;
 	text-align:center;
-	background-color: #dad4d4;
+	background-color: #fbfbfb;
 	height:150px;
 	padding-top:30px;
 	padding-bottom:50px;
@@ -103,4 +101,26 @@ padding-top:15px;
 	float:left;
 	padding:15px 0 0 0;
 
+}
+
+a {
+	line-height: 1.2;
+	position: relative;
+	padding: 0 14px;
+	text-transform: uppercase;
+}
+a:after {
+	content: "";
+	height: 100%;
+	min-width: 4px;
+	background:#000000;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transition: .5s;
+}
+a:hover:after {
+	min-width: 100%;
+	background: #95a5a6;
+	opacity: .35;
 }

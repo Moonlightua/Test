@@ -14,7 +14,7 @@
 <body>
 <header>
 	<div class="top-menu">
-		<DIV class="logo-text"><a href="/" style="color:black;text-decoration:none">RELAX, YOU'RE DOING FINE!</a></DIV>
+		<DIV class="logo-text"><a href="/" style="color:black;text-decoration:none;border:none">RELAX, YOU'RE DOING FINE!</a></DIV>
 	</div>
 	<div class="head-text" id="menu">
 		<a href="/">home</a>
