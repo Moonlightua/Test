@@ -22,7 +22,7 @@
 	padding-top:10px;
 }
 a:hover{
-	text-decoration:underline;
+	text-decoration:overline;
 }
 
 a {
@@ -44,7 +44,63 @@ footer{
 	word-spacing:15px;
 	font-size:4em;
 	text-align:center;
+	background-color: #dad4d4;
+	height:85px;
+	padding-top:30px;
 }
 .rel{
 	position:relative;
+}
+.backcolor{
+	background-color: #dad4d4;
+	width:100%;
+}
+.pct-text2{
+	font-size:1.7em;
+	text-align:center;
+	background-color: #dad4d4;
+	padding-bottom:50px;
+}
+.pct-text3{
+	font-family: 'Oswald', sans-serif;
+	font-weight:500;
+	word-spacing:15px;
+	font-size:4em;
+	text-align:center;
+	background-color: #dad4d4;
+	height:150px;
+	padding-top:30px;
+	padding-bottom:50px;
+}
+.foot{
+	height:200px;
+	background-color:black;
+}
+.foot-text{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+	text-align:left;
+	padding-top:133px;
+	padding-left:150px;
+	padding-right:150px;
+	font-size:20px;
+}
+.foot-text2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+	text-align:left;
+	font-size:40px;
+padding-top:15px;
+	padding-left:147px;
+	width:50%;
+	float:left;
+}
+.foot-text3{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color:white;
+	text-align:left;
+	font-size:28px;
+	float:left;
+	padding:15px 0 0 0;
+
 }

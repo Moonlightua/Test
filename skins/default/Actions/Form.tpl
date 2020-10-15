@@ -1,23 +1,10 @@
-
-<?php
-error_reporting(-1);
-
-
-/*
-echo 'GET: <pre>'.print_r($_GET,1).'</pre>';
-'POST: <pre>'.print_r($_POST,1).'</pre>'
-*/
+<b><?php
 if (isset($_POST['Login'],$_POST['Password'])and $_POST['Login']!=='' and $_POST['Password']!=='' )
-	{
+{
 	echo 'Done';
+}
 
-	}
- else{
-?>
-	 <BR>
-
-	<h2>Form</h2>
-	 <b>Please enter your login and password!</b> <br>
+?></b> <br>
 <form action="" method="post">
 	<div>Login: <input type="text" name="Login"</div>
 	<div>Password: <input type="password" name="Password"</div>
@@ -33,6 +20,4 @@ if (isset($_POST['Login'],$_POST['Password'])and $_POST['Login']!=='' and $_POST
 	</div>
 	<div><input type="submit" name="submit" value="Go"</div>
 </form>
-
-<?php } ?>
 
