@@ -20,7 +20,7 @@
 	<div class="head-text" id="menu">
 		<a href="/">home</a>
 		<a href="/index.php?module=Actions&page=Calculator">about</a>
-		<a href="/index.php?module=Actions&page=form">blog</a>
+		<a href="/index.php?module=Actions&page=articles">blog</a>
 		<a href="/index.php?module=Actions&page=game">contacts</a>
 		<a href="/index.php?module=Actions&page=Registration">registration</a>
 		<a href="/index.php?module=Actions&page=game">game</a>
