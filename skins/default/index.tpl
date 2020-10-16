@@ -14,7 +14,8 @@
 <body>
 <header>
 	<div class="top-menu">
-		<DIV class="logo-text"><a href="/" style="color:black;text-decoration:none;border:none">RELAX, YOU'RE DOING FINE!</a></DIV>
+		<div class="logo-text"><a href="/" style="color:black;text-decoration:none;border:none">RELAX, YOU'RE DOING FINE!</a></div>
+		<div class="textunderlogo">Life Advice That Doesn't Suck</div>
 	</div>
 	<div class="head-text" id="menu">
 		<a href="/">home</a>
