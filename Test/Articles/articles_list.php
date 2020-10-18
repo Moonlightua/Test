@@ -21,13 +21,13 @@ foreach($item as $items){
 	echo <<< msg
 <hr>
 <p>
-        <b><a href="{$_SERVER['PHP_SELF']}?id=$id">$title</a></b>  $date
+        <b><a href="http://newphp.com/index.php?module=Actions&page=articlesselect&id=$id">$title</a></b>  $date
         <br />$description
-    </p>
-    <p align="right">
-        <a href="{$_SERVER['PHP_SELF']}?del=$id">Удалить</a>
     </p>
 msg;
 
 }
+?>
+
+
 

@@ -931,25 +931,73 @@ SELECT|sys.sys_config:null
 </ObjectGrants>
     </user>
     <table id="291" parent="2" name="article"/>
-    <column id="292" parent="291" name="id">
+    <table id="292" parent="2" name="emails"/>
+    <table id="293" parent="2" name="msgs"/>
+    <column id="294" parent="291" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="293" parent="291" name="Title">
+    <column id="295" parent="291" name="Title">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="294" parent="291" name="Description">
+    <column id="296" parent="291" name="Description">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="295" parent="291" name="Date">
+    <column id="297" parent="291" name="Date">
       <Position>4</Position>
       <DataType>text|0s</DataType>
     </column>
-    <key id="296" parent="291" name="PRIMARY">
+    <key id="298" parent="291" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="299" parent="292" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="300" parent="292" name="email">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="301" parent="292" name="Date">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="302" parent="292" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="303" parent="293" name="id">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="304" parent="293" name="email">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="305" parent="293" name="name">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="306" parent="293" name="message">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="307" parent="293" name="Date">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="308" parent="293" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

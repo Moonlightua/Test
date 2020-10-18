@@ -1,4 +1,4 @@
-<div class="articles-list">
+<div>
 	<?php
 foreach($item as $items) {
 	$id = $items['id'];
@@ -7,16 +7,15 @@ foreach($item as $items) {
 	$date = $items['date'];
 	echo <<< msg
 	<p>
-		<b><a href="http://newphp.com/index.php?module=Actions&page=articlesselect&id=$id">$title</a></b>  $date
+		<b><a href="{$_SERVER['PHP_SELF']}?id=$id">$title</a></b>  $date
 		<br />$description
 	</p>
 	<p align="right">
-		<a href="http://newphp.com/index.php?module=Actions&page=DeleteArticle&del=$id">Delete</a>
+		<a href="{$_SERVER['PHP_SELF']}?del=$id">Delete</a>
 	</p>
 	msg; }
 	?>
 </div>
-
 
 
 

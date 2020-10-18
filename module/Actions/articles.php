@@ -1,5 +1,8 @@
 <?php
 include "W:\domains\\newphp.com/test/articles/lib.php";
+if(isset($_GET['del']) && is_numeric($_GET['del'])){
+	include "DeleteArticle.php";
+}
 
 $result = getArticle();
 

@@ -14,21 +14,15 @@ if(empty($title) or empty($description)){
 	}
 }
 
-
-
-
 ?>
 <!DOCTYPE html>
-
 <html>
 <head>
 	<title>Add New Articles</title>
 	<meta charset="utf-8" />
 </head>
 <body>
-
 <h1>New Article</h1>
-
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
 	Article title:<br />
@@ -37,9 +31,7 @@ if(empty($title) or empty($description)){
 	<textarea name="description" cols="50" rows="5"></textarea><br />
 	<br />
 	<input type="submit" value="Add!" />
-
 </form>
-
 </body>
 </html>
 

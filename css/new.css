@@ -156,7 +156,7 @@ a:hover:after {
 	font-size:30px;
 	padding-bottom:150px;
 }
-input[type="email"]{
+input[type="email"],input[type="text"],textarea{
 	border: 1px solid #e4e4e4;
 	background-color: transparent;
 	font-size: 24px;
@@ -214,4 +214,45 @@ input[type="submit"]{
 }
 .title-email{
 	padding-bottom:40px;
+}
+
+.buttonpos{
+	padding-left: 674px;
+	padding-bottom: 60px;
+	padding-top: 50px;
+}
+.question{
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
+	font-size:50px;
+	padding-top:70px;
+}
+.botquestion{
+	font-family: 'Comfortaa', cursive;
+	text-align:center;
+	font-size:30px;
+	padding-top:35px;
+	padding-bottom:50px;
+}
+
+.questpos{
+	padding-left:20px;
+	font-size: 20px;
+}
+.title-quest{
+	padding-bottom:40px;
+	word-spacing:70px;
+	text-align:center;
+}
+.text-area{
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.text-areasize{
+	padding-bottom:90px;
+}
+.articles-list{
+	font-family: 'Comfortaa', cursive;
+	padding-left:150px;
+	padding-right:150px;
 }
