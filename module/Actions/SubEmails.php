@@ -1,17 +1,22 @@
 <?php
-include "W:\domains\\newphp.com/test/articles/lib.php";
-$email=clearData($_POST['email']);
+
+namespace App;
+
+require_once "router.php";
+
+
+$email = htmlspecialchars($_POST['email'], ENT_QUOTES);
+
+
 if(empty($email)){
-	$errMsg = "Please, try again.";
+	return FALSE;
 }else{
-	$ok = 'OK!';
-	$res = addEmail($email);
-	if(!$res){
+	$class = new EmailsCenter();
+	$result = $class->addEmail($email);
+	if(!$result){
 		return false;
 	}else{
 		header("Location: /");
 		exit;
 	}
 }
-
-?>

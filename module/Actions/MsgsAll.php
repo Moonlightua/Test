@@ -1,18 +1,24 @@
 <?php
-include "W:\domains\\newphp.com/test/articles/lib.php";
+namespace App;
 
-$msgs = getMsgs();
-if($msgs === false) {
-	echo 'FATAL ERROR!';
-}
-else {
-	foreach($msgs as $item) {
-		$id = $item['id'];
-		$name = $item['name'];
-		$mail = $item['email'];
-		$message = $item['message'];
-		$date = $item['Date'];
+require_once "router.php";
+
+$class = new MessagesCenter();
+$result = $class->getMessage();
+
+if(isset($_GET['del']) && is_numeric($_GET['del'])){
+	$del = new DeleteEntity();
+	$delete = $del->delete($_GET['del'],get_class($class));
+	if(!$delete){
+		return false;
+	}else{
+		header('Location: /index.php?module=Actions&page=MsgsAll');
+			exit;
 	}
+}
+
+if($result === false) {
+	echo 'FATAL ERROR!';
 }
 
 

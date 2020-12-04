@@ -1,15 +1,21 @@
 <?php
-include "W:\domains\\newphp.com/test/articles/lib.php";
+namespace App;
 
-$em = getEmails();
 
-if($em === false) {
+require_once "router.php";
+
+
+$class = new EmailsCenter();
+$result = $class->getEmails();
+
+if(isset($_GET['del']) && is_numeric($_GET['del'])){
+	$del = new DeleteEntity();
+		$del->delete($_GET['del'],get_class($class));
+			header("Location: index.php?module=Actions&page=EmailsSubs");
+			exit;
+}
+
+if($result === false) {
 	echo 'FATAL ERROR!';
 }
-else {
-	foreach($em as $item) {
-		$id = $item['id'];
-		$mails = $item['email'];
-		$date = $item['Date'];
-	}
-}
+

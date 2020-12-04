@@ -1,3 +1,2 @@
 <?php
-
 define ('SKIN','default');

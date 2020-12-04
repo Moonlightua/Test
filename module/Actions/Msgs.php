@@ -1,20 +1,24 @@
 <?php
-include "W:\domains\\newphp.com/test/articles/lib.php";
-$m=clearData($_POST['emails']);
-$n=clearData($_POST['name']);
-$msg=clearData($_POST['text']);
-if(empty($m)or empty($n) or empty($msg)){
-	$errMsg = "Please, try again.";
-	echo 'EMPTY';
+namespace App;
+
+require_once "router.php";
+
+$email = htmlspecialchars($_POST['emails'], ENT_QUOTES);
+$name = htmlspecialchars($_POST['name'], ENT_QUOTES);
+$message = htmlspecialchars($_POST['text'],ENT_QUOTES);
+
+if(empty($email)or empty($name) or empty($message)){
+	return FALSE;
 }else{
-	$res = addMsgs($n,$m,$msg);
-	if($res==TRUE){
+	$class = new MessagesCenter();
+	$result = $class->addMessage($name,$email,$message);
+	if($result == TRUE){
 		header("Location: /");
 	}else{
 		echo 'No!';
 	}
 }
-?>
+
 
 
 
