@@ -11,100 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91b25af2-1b24-4131-ad54-c1dc4f1902df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/newgeneration.com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/103b4eb5990f9ee567126cf456cfb822.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/luxfon.com-18755.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/meadow_forest_field_sky_trees_111008_1600x900.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/park-lake-autumn-hut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pfadiweg-feature2-1-e1589500207786.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/winter-landscape-in-the-black-forest-germany-19397.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/ArticlesCenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/ArticlesInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/DeleteEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/DeleteInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/EmailsCenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/EmailsInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/MessagesCenter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/MessagesInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/MySQLdatabase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/addArticles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/articlesAdm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/articles_list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Actions/router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/default/Actions/AddArticle.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/default/Actions/Admin.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/default/Actions/Contacts.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/default/Actions/articlesAdm.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skins/default/Actions/login.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0a2e464-411a-4027-aa3b-bc7a1b981aee.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b0a2e464-411a-4027-aa3b-bc7a1b981aee/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/newphp.com.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BD.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/City.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Keyword.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Articles/addArticles.php" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/addArticles.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Articles/articles.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Articles/articles_list.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Articles/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Articles/lib.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/lib.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/Test3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/example.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/example.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/hello world.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/try.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/libs/variables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/About.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/CommentsInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/DeleteArticle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/DeleteEmails.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/DeleteMsg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/EmailsSubs.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/EmailsSubs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/Form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/Msgs.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/Msgs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/MsgsAll.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/MsgsAll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/Registration.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/SubEmails.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/SubEmails.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/articles.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/articles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/articlesread.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/articlesselect.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Actions/articlesselect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/calculator.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/game.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/gameover1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/gameover2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Actions/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/About.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/About.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/DeleteArticle.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/DeleteEmails.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/DeleteMsg.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/EmailsSubs.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/EmailsSubs.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/Form.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/MsgsAll.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/MsgsAll.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/Registration.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/SubEmails.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/SubEmails.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/articles.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/articles.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/articlesread.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/articlesselect.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Actions/articlesselect.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/calculator.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/game.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/gameover1.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/gameover2.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Actions/index.tpl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/Static/main.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/Static/main.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skins/default/index.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/skins/default/index.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +53,7 @@
     <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/module/Actions" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="configurable.group.appearance" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -177,6 +85,7 @@
       <workItem from="1606811915581" duration="13906000" />
       <workItem from="1606918295203" duration="7529000" />
       <workItem from="1606991465570" duration="8581000" />
+      <workItem from="1607083217968" duration="883000" />
     </task>
     <servers />
   </component>
@@ -244,6 +153,10 @@
       <screen x="0" y="0" width="1600" height="870" />
     </state>
     <state x="643" y="196" key="refactoring.ChangeSignatureDialog/0.0.1600.870@0.0.1600.870" timestamp="1606836227956" />
+    <state x="456" y="198" key="run.anything.popup" timestamp="1607083478333">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1607083478333" />
     <state x="463" y="182" width="672" height="678" key="search.everywhere.popup" timestamp="1606738321891">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
