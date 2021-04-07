@@ -1,0 +1,7 @@
+no_google_ads_ad_network.admin:
+  path: '/admin/no-google-ads-ad-network/settings/ad-network'
+  defaults:
+    _form: '\Drupal\no_google_ads_ad_network\Form\NoGoogleAdsAdNetworkSettingsFormAdNetworkSettingsForm'
+    _title: 'No google ads network settings form'
+  requirements:
+    _permission: 'no google ads ad network integration config pages'

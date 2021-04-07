@@ -1,0 +1,90 @@
+<?php
+
+/**
+ * @file
+ * Contains custom functions and hooks.
+ */
+
+use Drupal\Core\Url;
+use Drupal\node\NodeInterface;
+use Drupal\Component\Utility\NestedArray;
+use Drupal\taxonomy\TermInterface;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function no_google_ads_ad_network_page_attachments(array &$variables) {
+  // Not apply script on admin routes.
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    return;
+  }
+
+  $route_parameters = \Drupal::routeMatch()->getParameters();
+
+  // Attached script.
+  $script = '<script>var msTag = {site: \'nltimes\', page: \'ros\', data: {nsc: false}}</script>';
+
+  $no_google_ads_ad_network_from_settings = \Drupal::config('no_google_ads_ad_network.settings')->getRawData();
+
+  if (empty($no_google_ads_ad_network_from_settings)) {
+    return;
+  }
+
+  $applicable_content_type = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['content_typeArray']);
+  $applicable_taxonomy_vocabulary = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['taxonomy_term']);
+
+  if (($node = $route_parameters->get('node')) && ($node instanceof NodeInterface) && in_array($node->bundle(), $applicable_content_type) ) {
+
+    $content_types = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['content_typeArray']);
+    $fields = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['control_field_node']);
+    $control_field = array_combine($content_types, $fields);
+
+    if (!$node->hasField($control_field[$node->bundle()])) {
+      return;
+    }
+
+    switch ($node->get($control_field[$node->bundle()])->value) {
+      case '1':
+        $script = '<script>var msTag = {site:\'nltimes\', page: \'artikel\', data: {nsc: true}}</script>';
+        break;
+
+      default:
+        $script = '<script>var msTag = {site:\'nltimes\', page: \'artikel\', data: {nsc: false}}</script>';
+    }
+  }
+
+  if (($term = $route_parameters->get('taxonomy_term')) && ($term instanceof TermInterface) && $term->bundle() == $applicable_taxonomy_vocabulary) {
+    $control_field[$node->bundle()] = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['control_field_taxonomy_term']);
+
+    if (!$term->hasField($control_field[$node->bundle()])) {
+      return;
+    }
+
+    switch ($term->get($control_field)->value) {
+      case '1':
+        $script = '<script>var msTag = {site:\'nltimes\', page: \'artikel\', data: {nsc: true}}</script>';
+        break;
+
+      default:
+        $script = '<script>var msTag = {site:\'nltimes\', page: \'artikel\', data: {nsc: false}}</script>';
+    }
+
+  }
+
+  $current_path_unaliased = \Drupal::service('path.current')->getPath();
+  $current_path_aliased = \Drupal::service('path_alias.manager')->getAliasByPath($current_path_unaliased);
+  $applicable_path = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['path']);
+
+  if ($current_path_unaliased == $applicable_path || $current_path_aliased == $applicable_path) {
+    $script = '<script>var msTag = {site:\'nltimes\', page: \'artikel\', data: {nsc: true}}</script>';
+  }
+
+  $variables['#attached']['html_head'][] = [[
+    '#tag' => 'script',
+    '#value' => $script,
+    '#weight' => -1,
+  ],
+    'no_google_ads',
+  ];
+
+}

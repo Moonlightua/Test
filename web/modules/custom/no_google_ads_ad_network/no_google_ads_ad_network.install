@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Contains custom functions and hooks.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function no_google_ads_ad_network_uninstall() {
+  // Delete settings after uninstall module.
+  \Drupal::configFactory()->getEditable('no_google_ads_ad_network.settings')->delete();
+}

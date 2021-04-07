@@ -1,0 +1,14 @@
+no_google_ads_ad_network.settings:
+  type: config_object
+  label: 'No google ads ad network settings'
+  mapping:
+    content_type:
+      type: string
+      label: 'Content type'
+  control_field_content_type:
+    type: string
+    label: 'Control field'
+  dependencies:
+    enforced:
+      module:
+        - no_google_ads_ad_network

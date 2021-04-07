@@ -1,0 +1,6 @@
+no_google_ads_ad_network.page.admin:
+  title: 'No google ads ad network'
+  parent: system.admin_config_system
+  route_name: no_google_ads_ad_network.admin
+  menu_name: admin
+  weight: 99

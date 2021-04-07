@@ -1,0 +1,5 @@
+name: 'No google ads ad network'
+type: module
+package: Custom
+core_version_requirement: 8.x
+description: 'Contains custom code related to `No google ads ad network script`.'
