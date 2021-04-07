@@ -71,6 +71,7 @@ function no_google_ads_ad_network_page_attachments(array &$variables) {
 
   }
 
+  //Get current aliased and unaliased path.
   $current_path_unaliased = \Drupal::service('path.current')->getPath();
   $current_path_aliased = \Drupal::service('path_alias.manager')->getAliasByPath($current_path_unaliased);
   $applicable_path = NestedArray::getValue($no_google_ads_ad_network_from_settings, ['path']);
